@@ -23,3 +23,18 @@
   </figcaption>
 </figure>
 ```
+
+## Work Experience
+
+
+## Education
+
+## Languages
+
+Russian - Native
+
+English - Upper-intermediate
+
+German - Intermediate
+
+French - Basic
