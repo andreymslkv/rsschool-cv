@@ -52,7 +52,7 @@
           </div>
         </div>
         <div class="about__right">
-          <h1 class="title">
+          <h1 class="username">
             Andrey Maslikov
           </h1>
           <p class="text">
@@ -65,15 +65,101 @@
         </div>
       </section>
 
-      <section class="skills"></section>
+      <section class="skills">
+        <h2 class="title">
+          Hard skills & Tools
+        </h2>
+        <ul class="skills__list">
+          <li class="skills__item">
+            HTML5
+          </li>
+          <li class="skills__item">
+            CSS3
+          </li>
+          <li class="skills__item">Git \ GitHub</li>
+          <li class="skills__item">Bootstrap</li>
+          <li class="skills__item">Gulp</li>
+          <li class="skills__item">Sass \ SCSS \ Less</li>
+          <li class="skills__item">JavaScript</li>
+          <li class="skills__item">jQuery</li>
+          <li class="skills__item">BEM</li>
+          <li class="skills__item">WordPress</li>
+        </ul>
+      </section>
 
-      <section class="courses"></section>
+      <section class="courses">
+        <h2 class="title">
+          Courses
+        </h2>
+        <ul class="courses__list">
+          <li class="courses__item">
+            HTML&CSS: Professional Website Layout - HTML Academy
+          </li>
+          <li class="courses__item">
+            Basic Developer Tools - Anatoli Salamatin
+          </li>
+          <li class="courses__item">
+            Basics of HTML&CSS - Netology
+          </li>
+          <li class="courses__item">
+            HTML & CSS masterclass - ITEA
+          </li>
+          <li class="courses__item">
+            Web Development for beginners - Stepik
+          </li>
+        </ul>
+      </section>
 
-      <section class="portfolio"></section>
+      <section class="portfolio">
+        <h2 class="title">
+          Portfolio
+        </h2>
+      </section>
 
-      <section class="code"></section>
+      <section class="code">
+        <h2 class="title">
+          Code example
+        </h2>
+        <pre>
+        <code>
+          const slides = document.querySelectorAll(".slide");
 
-      <section class="languages"></section>
+          for (const slide of slides) {
+          slide.addEventListener("click", () => {
+          clearActiveClasses();
+
+          slide.classList.add("active");
+          });
+          }
+
+          function clearActiveClasses() {
+          slides.forEach((slide) => {
+          slide.classList.remove("active");
+          });
+          }
+        </code>
+        </pre>
+      </section>
+
+      <section class="languages">
+        <h2 class="title">
+          Languages
+        </h2>
+        <ul class="languages__list">
+          <li class="languages__item">
+            Russian - Native
+          </li>
+          <li class="languages__item">
+            English - Upper-intermediate
+          </li>
+          <li class="languages__item">
+            German - Intermediate
+          </li>
+          <li class="languages__item">
+            French - Basic
+          </li>
+        </ul>
+      </section>
     </div>
   </main>
 
