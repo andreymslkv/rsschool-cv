@@ -1,1 +1,180 @@
-/* Styles here */
+* {
+  box-sizing: border-box;
+}
+
+:root {
+  --accent-color: #ff9900;
+  --dark-color: #2e2e2e;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+body {
+  min-height: 100vh;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 27px;
+  font-family: "Montserrat", sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}
+
+.header {
+  padding: 40px 0;
+  background-color: var(--dark-color);
+}
+
+.container {
+  width: 1200px;
+  margin: 0 auto;
+}
+
+.menu {
+}
+
+.menu__list {
+  padding: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.menu__link {
+  font-weight: 400;
+  font-size: 21px;
+  line-height: 32px;
+  color: var(--accent-color);
+}
+
+.menu__link:hover {
+  text-decoration: underline;
+}
+
+.page-content {
+  padding: 60px 0 24px 0;
+}
+
+.about {
+  margin-bottom: 50px;
+  display: flex;
+}
+
+.about__left {
+  width: 500px;
+  margin-right: 45px;
+}
+
+.about__right {
+  margin-top: 14px;
+}
+
+.avatar {
+  height: 470px;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.avatar__img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.username {
+  margin-bottom: 40px;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 44px;
+}
+
+.text {
+}
+
+.contacts__links {
+  display: flex;
+  flex-direction: column;
+  font-style: normal;
+  font-weight: 700;
+}
+
+.contacts__phone {
+  color: #000000;
+}
+
+.contacts__mail {
+  color: #000000;
+}
+
+.skills {
+  &__list {
+  }
+  &__item {
+  }
+}
+
+.title {
+}
+
+.courses {
+  &__list {
+  }
+  &__item {
+  }
+}
+
+.portfolio {
+  &__list {
+  }
+  &__item {
+  }
+  &__link {
+  }
+}
+
+.code {
+}
+
+.languages {
+  &__list {
+  }
+  &__item {
+  }
+}
+
+.footer {
+  &__link {
+  }
+}
+
+.footer-promo {
+  &__link {
+  }
+}
