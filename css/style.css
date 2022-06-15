@@ -31,6 +31,8 @@ a {
 
 ul {
   list-style: none;
+  padding: 0;
+  margin: 0;
 }
 
 h1,
@@ -55,9 +57,6 @@ img {
 .container {
   width: 1200px;
   margin: 0 auto;
-}
-
-.menu {
 }
 
 .menu__list {
@@ -115,9 +114,6 @@ img {
   line-height: 44px;
 }
 
-.text {
-}
-
 .contacts__links {
   display: flex;
   flex-direction: column;
@@ -141,6 +137,10 @@ img {
 }
 
 .title {
+  margin-bottom: 23px;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 44px;
 }
 
 .courses {
@@ -170,11 +170,34 @@ img {
 }
 
 .footer {
-  &__link {
-  }
+  padding: 40px 0;
+  background-color: var(--dark-color);
+}
+
+.footer__container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer__link span {
+  color: var(--accent-color);
+}
+
+.footer__link span:hover {
+  text-decoration: underline;
+}
+
+.date {
+  color: var(--accent-color);
 }
 
 .footer-promo {
-  &__link {
-  }
+  padding: 0 5px 0 5px;
+  border-radius: 4px;
+  background-color: #ffffff;
+}
+
+.footer-promo:hover {
+  opacity: 0.6;
 }
