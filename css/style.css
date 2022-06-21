@@ -82,7 +82,7 @@ img {
 }
 
 .about {
-  margin-bottom: 50px;
+  margin-bottom: 100px;
   display: flex;
 }
 
@@ -94,6 +94,10 @@ img {
 .about__right {
   margin-top: 14px;
   width: 785px;
+}
+
+.about__right:last-child {
+  margin-bottom: 50px;
 }
 
 .avatar {
@@ -142,10 +146,18 @@ img {
 }
 
 .skills {
-  &__list {
-  }
-  &__item {
-  }
+  margin-bottom: 100px;
+}
+
+.skills__list {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.skills__item {
+  margin: 10px 0;
+  border-bottom: 2px solid var(--accent-color);
 }
 
 .title {
@@ -156,29 +168,70 @@ img {
 }
 
 .courses {
-  &__list {
-  }
-  &__item {
-  }
+  margin-bottom: 100px;
+}
+
+.courses__list {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.courses__item {
+  margin: 10px 0;
+  border-bottom: 2px solid var(--accent-color);
 }
 
 .portfolio {
-  &__list {
-  }
-  &__item {
-  }
-  &__link {
-  }
+  margin-bottom: 100px;
+}
+
+.portfolio__list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 30px;
+}
+
+.portfolio__item {
+  border: 5px solid transparent;
+  border-radius: 10px;
+}
+
+.portfolio__item:hover {
+  border: 5px solid var(--accent-color);
+  border-radius: 10px;
+}
+
+.portfolio__link img {
+  display: block;
+  max-width: 100%;
+  width: 500px;
+  height: 180px;
+  object-fit: cover;
 }
 
 .code {
+  margin-bottom: 100px;
+}
+
+.code__content {
+  border: 5px solid var(--accent-color);
 }
 
 .languages {
-  &__list {
-  }
-  &__item {
-  }
+  margin-bottom: 100px;
+}
+
+.languages__list {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.languages__item {
+  margin: 10px 0;
+  border-bottom: 2px solid var(--accent-color);
 }
 
 .footer {
