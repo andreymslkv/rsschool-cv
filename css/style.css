@@ -93,6 +93,7 @@ img {
 
 .about__right {
   margin-top: 14px;
+  width: 785px;
 }
 
 .avatar {
@@ -122,11 +123,22 @@ img {
 }
 
 .contacts__phone {
+  margin-bottom: 15px;
   color: #000000;
+}
+
+.contacts__phone:hover {
+  color: var(--accent-color);
+  text-decoration: underline;
 }
 
 .contacts__mail {
   color: #000000;
+}
+
+.contacts__mail:hover {
+  color: var(--accent-color);
+  text-decoration: underline;
 }
 
 .skills {
@@ -137,7 +149,7 @@ img {
 }
 
 .title {
-  margin-bottom: 23px;
+  margin-bottom: 25px;
   font-weight: 700;
   font-size: 36px;
   line-height: 44px;
